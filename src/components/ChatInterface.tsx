@@ -63,7 +63,7 @@ export function ChatInterface() {
       const data = await response.json();
       
       // If budget was detected, fetch shoe deals
-      let shoeDeals;
+      let shoeDeals: any[] | undefined;
       if (budget) {
         shoeDeals = getShoeDeals(budget);
       }

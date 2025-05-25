@@ -20,7 +20,11 @@
 ## Local Development
 
 ### Environment Variables
+
+create .env.local file and use credentials 
 ```
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_bW9kZWwtc3F1aWQtMTkuY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_dKIZmxs30CqkQPloCEQNUzf8lUBT3PMuGL3pGFf1Me
 OMNIDIM_API_KEY=-enknnAUXVym81SrL6ZepIxU6Yjgzk9bvmI9V8Xv5eA
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 ```
